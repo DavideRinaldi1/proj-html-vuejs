@@ -53,7 +53,7 @@
     letter-spacing: .5px;
 }
 
-.headache{
+#headache{
     background-color: #e9e9e9;
     height: 400px;
 }
@@ -74,11 +74,11 @@
     line-height: 25px;
 }
 
-.solution{
+#solution{
     height: 800px;
 }
 
-.move{
+#move{
     height: 500px;
     background-image: url('../images/avada-movers-movewithease-background-new.jpg');
     background-size: cover;
@@ -96,6 +96,24 @@
     right: 200px;
 }
 
+#testimonials{
+    background-image: url('../images/avada-movers-testimonial-background.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.testimonial_card{
+    border: none;
+    background-color: transparent;
+}
+
+.testimonial_card img{
+    width: 100px;
+    display: inline-block;
+    border-radius: 50%;
+}
 /* COMMON */
 .p-relative{
     position: relative;
@@ -107,6 +125,7 @@
     color: #fff;
     border-radius: 10px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .size7{
@@ -147,4 +166,8 @@
     width: 200px;
     margin-bottom: 10px;
     display: inline-block;
+}
+
+.size8{
+    font-size: .8rem;
 }
