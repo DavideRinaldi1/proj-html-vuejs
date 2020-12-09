@@ -58,24 +58,42 @@
     height: 400px;
 }
 
-.card-img-top{
+.img_solution{
     border: 15px solid #e9e9e9;
 }
 
-.card-body{
+.body_solution{
     border-width: 0 15px 15px 15px;
     border-color: #e9e9e9; 
     border-style: solid;
     padding: 20px 10px;
 }
 
-.card-text{
+.text_solution{
     font-size: .9rem;
     line-height: 25px;
 }
 
 .solution{
     height: 800px;
+}
+
+.move{
+    height: 500px;
+    background-image: url('../images/avada-movers-movewithease-background-new.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.card_green{
+    background-color: #8fce53;
+    border: 10px solid #6bbb14;
+    width: 25rem;
+    position: absolute;
+    top: 100px;
+    right: 200px;
 }
 
 /* COMMON */
@@ -118,4 +136,15 @@
 .card-title{
     font-weight: bold;
     color: #1975c0;
+}
+
+.text_white{
+    color: #fff !important;
+}
+
+.rule{
+    border: .5px solid #fff;
+    width: 200px;
+    margin-bottom: 10px;
+    display: inline-block;
 }
