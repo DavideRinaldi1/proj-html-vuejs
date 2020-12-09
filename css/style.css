@@ -53,6 +53,31 @@
     letter-spacing: .5px;
 }
 
+.headache{
+    background-color: #e9e9e9;
+    height: 400px;
+}
+
+.card-img-top{
+    border: 15px solid #e9e9e9;
+}
+
+.card-body{
+    border-width: 0 15px 15px 15px;
+    border-color: #e9e9e9; 
+    border-style: solid;
+    padding: 20px 10px;
+}
+
+.card-text{
+    font-size: .9rem;
+    line-height: 25px;
+}
+
+.solution{
+    height: 800px;
+}
+
 /* COMMON */
 .p-relative{
     position: relative;
@@ -63,8 +88,34 @@
     padding: 5px 10px;
     color: #fff;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 .size7{
     font-size: .7rem;
+}
+
+.similCard{
+    width: 480px;
+    padding-top: 100px;
+}
+
+.similCard > h2{
+    padding-bottom: 20px;
+}
+
+.title_green{
+    font-weight: bold;
+    color: #8fce53;
+}
+
+.subtitle{
+    font-weight: bold;
+    margin-bottom: 0;
+    color: grey;
+}
+
+.card-title{
+    font-weight: bold;
+    color: #1975c0;
 }
