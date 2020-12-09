@@ -1,0 +1,70 @@
+/* TOP HEADER */
+.ms_container{
+    width: 100vw;
+}
+
+.top_header{
+    height: 30px;
+    background-color: #69bf14;
+    font-size: .6rem;
+    color:#fff;
+}
+
+.contact i{
+    margin-right: 5px;
+}
+
+.social > i{
+    margin-left: 10px;
+}
+
+.jumbotron{
+    background-image: url('../images/avada-movers-homeherobackground-final.jpg');
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 0;
+    padding: 0;
+}
+ 
+.jumbotron p{
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+.jumbotron h1{
+    font-weight: bold;
+}
+
+.nav{
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.nav img{
+    height: 45px;
+}
+
+.free{
+    background-color: #1975c0;
+    height: 100px;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+/* COMMON */
+.p-relative{
+    position: relative;
+}
+
+.callToAction{
+    background-color: #1b74c3;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.size7{
+    font-size: .7rem;
+}
