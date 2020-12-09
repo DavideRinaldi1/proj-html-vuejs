@@ -114,6 +114,12 @@
     display: inline-block;
     border-radius: 50%;
 }
+
+#quote{
+    height: 300px;
+    background-image: url('../images/avada-movers-request-quote-background.jpg');
+    border-bottom: 10px solid #6bbb14;
+}
 /* COMMON */
 .p-relative{
     position: relative;
@@ -170,4 +176,8 @@
 
 .size8{
     font-size: .8rem;
+}
+
+.pb10{
+    padding-bottom: 10px !important;
 }
