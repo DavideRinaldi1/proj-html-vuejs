@@ -43,14 +43,13 @@
                             <img src="images/avada-movers-logo.png" alt="avada movers logo">
                         </div>
                         <div class="col d-flex justify-content-end align-items-center">
-                            <ul class="list-unstyled list-inline size7">
-                                <li class="list-inline-item">Lorem</li>
-                                <li class="list-inline-item">Lorem</li>
-                                <li class="list-inline-item">Lorem</li>
-                                <li class="list-inline-item">Lorem</li>
-                                <li class="list-inline-item">Lorem</li>
-                                <li class="list-inline-item">Lorem</li>
-                                <li class="list-inline-item callToAction text-uppercase">lorem ipsum</li>
+                            <ul class="list-unstyled list-inline size7 menu">
+                                <li 
+                                class="list-inline-item"
+                                v-for="items in linkHeader">
+                                {{items.name}}
+                                </li>
+                                <li class="list-inline-item callToAction text-uppercase">free quote</li>
                             </ul>
                         </div>
                     </div>
@@ -201,24 +200,23 @@
                             <span class="text-uppercase size7">
                                 <strong>avada movers</strong> 
                             </span>
-                            <ul class="size7 footer_menu">
-                                <li>Lorem</li>
-                                <li>Lorem</li>
-                                <li>Lorem</li>
-                                <li>Lorem</li>
-                                <li>Lorem</li>
+                            <ul class="size7 footer_menu list-unstyled">
+                                <li 
+                                v-for="items in linkHeader">
+                                &gt; {{items.name}}
+                                </li>
                             </ul>
                         </div>
                         <div class="col">
                                <span class="text-uppercase size7">
                                 <strong>recent posts</strong> 
                             </span>
-                            <ul class="size7 footer_menu">
-                                <li>Lorem</li>
-                                <li>Lorem</li>
-                                <li>Lorem</li>
-                                <li>Lorem</li>
-                                <li>Lorem</li>
+                            <ul class="size7 footer_menu list-unstyled">
+                                <li
+                                v-for="post in linkFooterPost">
+                                &gt; {{post.name}}
+                                </li>
+                                
                             </ul>
                         </div>
                     </div>
