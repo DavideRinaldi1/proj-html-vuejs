@@ -120,6 +120,31 @@
     background-image: url('../images/avada-movers-request-quote-background.jpg');
     border-bottom: 10px solid #6bbb14;
 }
+
+footer img{
+    height: 40px;
+    margin: 20px 10px;
+}
+
+.footer_menu{
+    padding-left: 15px;
+}
+
+.footer_menu li{
+    margin: 12px 0;
+}
+
+.credits > span{
+    padding-top: 20px;
+}
+
+.credits > span:last-of-type{
+    padding-bottom: 20px;
+}
+
+.credits > span:last-of-type i{
+    margin: 5px;
+}
 /* COMMON */
 .p-relative{
     position: relative;
@@ -127,7 +152,7 @@
 
 .callToAction{
     background-color: #1b74c3;
-    padding: 5px 10px;
+    padding: 5px 15px;
     color: #fff;
     border-radius: 10px;
     font-weight: bold;
@@ -178,6 +203,18 @@
     font-size: .8rem;
 }
 
+.size5{
+    font-size: .5rem;
+}
+
 .pb10{
     padding-bottom: 10px !important;
+}
+
+.pt20{
+    padding-top: 20px;
+}
+
+.bg_green{
+    background-color: #8fce53;
 }
