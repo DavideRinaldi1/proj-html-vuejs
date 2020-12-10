@@ -50,6 +50,4 @@ const myApp = new Vue({
             },
         ]
     }
-
-
 })

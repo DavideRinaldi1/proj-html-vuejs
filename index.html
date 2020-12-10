@@ -13,6 +13,9 @@
         <!-- Vuejs -->
         <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
         <title>Avada: Movers</title>
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
         <div id="root">
@@ -47,7 +50,9 @@
                                 <li 
                                 class="list-inline-item"
                                 v-for="items in linkHeader">
-                                {{items.name}}
+                                <a :href="items.link">
+                                    {{items.name}}
+                                </a>
                                 </li>
                                 <li class="list-inline-item callToAction text-uppercase">free quote</li>
                             </ul>
@@ -203,7 +208,9 @@
                             <ul class="size7 footer_menu list-unstyled">
                                 <li 
                                 v-for="items in linkHeader">
-                                &gt; {{items.name}}
+                                    <a :href="items.link">
+                                        &gt; {{items.name}}
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -214,7 +221,9 @@
                             <ul class="size7 footer_menu list-unstyled">
                                 <li
                                 v-for="post in linkFooterPost">
-                                &gt; {{post.name}}
+                                    <a :href="post.link">
+                                        &gt; {{post.name}}
+                                    </a>
                                 </li>
                                 
                             </ul>
@@ -230,10 +239,10 @@
                                     Copiright 2012 - 2020 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress
                                 </span>
                                 <span class="size7">
-                                    <i class="fab fa-facebook-f"></i>
-                                    <i class="fab fa-twitter"></i>
-                                    <i class="fab fa-instagram"></i>
-                                    <i class="fab fa-youtube"></i>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
                                 </span>
                             </div>
                         </div>
