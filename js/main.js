@@ -49,5 +49,5 @@ const myApp = new Vue({
                 link: '#'
             },
         ]
-    }
+    },
 })

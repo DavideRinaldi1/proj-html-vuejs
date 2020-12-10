@@ -126,6 +126,7 @@
     width: 110px;
     display: inline-block;
     border-radius: 50%;
+    align-self: center;
 }
 
 #quote{
